@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "navbar.css";
+@import "about.css";
+@import "service.css";
+@import "testimoni.css";
+@import "contact.css";
+@import "footer.css";
+
+html, body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  background-color: #eee;
+}
+::-moz-selection { /* Code for Firefox */
+  background: rgba(0, 172, 181, .7);
+}
+
+::selection {
+  background: rgba(0, 172, 181, .7);
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+  color: #eee;
+  transition: all .3s ease-in-out;
+}
+
+a:hover {
+  color: #00ADB5;
+}
+
+section {
+  padding: 80px 10%;
+  text-align: center;
+  color: #333;
+}
+
+button {
+  transition: all .3s ease-in-out;
+}
+
+
+@media (max-width: 768px) {
+  section {
+    padding: 40px 10%;
+  }
+}

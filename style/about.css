@@ -1,0 +1,54 @@
+#about {
+  position: relative;
+  background-color: #eee; /* Background color */
+  color: #222831; /* Text color */
+  text-align: start;
+}
+
+#about h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #00ADB5; /* Accent color */
+}
+#about p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+#about .btn {
+  padding: 10px 20px;
+  background-color: #00ADB5; /* Accent color */
+  color: #EEEEEE; /* Text color */
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#about .btn:hover {
+  background-color: #222831; /* Background color */
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+}
+.about-text {
+  flex: 1;
+}
+.about-svg {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+.about-svg img {
+  width: 300px; /* Adjust the size as needed */
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .about-svg {
+    display: none;
+  }
+}

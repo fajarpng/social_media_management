@@ -1,0 +1,28 @@
+#services {
+  background-color: #00ADB5; /* Background color */
+}
+#services h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #eee; /* Text color */
+}
+#services ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+#services li {
+  margin: 0 20px;
+  padding: 20px;
+  background-color: #393E46; /* Background color */
+  color: #EEEEEE; /* Text color */
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  #services ul {
+    display: block;
+  }
+}
