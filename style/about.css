@@ -41,6 +41,7 @@
   flex: 1;
   display: flex;
   justify-content: flex-end;
+  filter: drop-shadow(0 0 1px #222831);
 }
 .about-svg img {
   width: 300px; /* Adjust the size as needed */

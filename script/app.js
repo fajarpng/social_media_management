@@ -27,12 +27,12 @@ const handleNavbarVisibilityChange = () => {
   navList.classList.toggle("open")
   if (isNabarOpen) {
     navbarToggleBars[0].style.transform = "rotate(0) translateY(0)";
-    navbarToggleBars[1].style.transform = "rotate(0) translateY(0)";
-    navbarToggleBars[2].style.opacity = "1";
+    navbarToggleBars[2].style.transform = "rotate(0) translateY(0)";
+    navbarToggleBars[1].style.opacity = "1";
   } else {
-    navbarToggleBars[0].style.transform = "rotate(45deg) translateY(7px)";
-    navbarToggleBars[1].style.transform = "rotate(-45deg) translateY(-7px)";
-    navbarToggleBars[2].style.opacity = "0";
+    navbarToggleBars[0].style.transform = "rotate(45deg) translateY(12px)";
+    navbarToggleBars[2].style.transform = "rotate(-45deg) translateY(-12.5px)";
+    navbarToggleBars[1].style.opacity = "0";
   }
   isNabarOpen = !isNabarOpen
 }
@@ -47,6 +47,14 @@ const setBlurredBgNavbar = () => {
     haderNav.classList.remove("blurred");
   }
 }
+
+// Wait for the DOM to be fully loaded
+document.addEventListener("DOMContentLoaded", function() {
+  setTimeout(function() {
+      var splashScreen = document.getElementById("splash-screen");
+      splashScreen.classList.add('none');
+  }, 100); // 2000 milliseconds (2 seconds) delay
+});
 
 // Initial call to set active menu item on page load
 // setActiveMenuItem();
