@@ -26,7 +26,5 @@ navMenus.forEach(e => e.addEventListener('click', handleNavbarVisibilityChange))
 window.addEventListener('scroll', () => {
   if (window.scrollY > 150) {
     header.style.backgroundColor = '#fcee4f';
-  } else {
-    header.style.backgroundColor = 'transparent'; // Reset to transparent
   }
 });
