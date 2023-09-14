@@ -2,6 +2,8 @@
 @import "navbar.css";
 @import "home.css";
 @import "about.css";
+@import "services.css";
+@import "contact.css";
 @font-face {
   font-family: "norwester";
   src: url("/asset/norwester.otf");

@@ -12,3 +12,7 @@
   letter-spacing: 5px;
   margin-bottom: 2rem;
 }
+
+#about .desc {
+  text-align: start;
+}
