@@ -25,6 +25,22 @@ navMenus.forEach(e => e.addEventListener('click', handleNavbarVisibilityChange))
 
 window.addEventListener('scroll', () => {
   if (window.scrollY > 150) {
-    header.style.backgroundColor = '#fcee4f';
+    header.style.backgroundColor = '#fcee4f'
   }
-});
+})
+
+let lastScrollTop = 0;
+
+window.addEventListener('scroll', () => {
+    const scrollTop = window.scrollY;
+
+    if (scrollTop > lastScrollTop) {
+        // Scrolling down, hide the navbar
+        header.style.transform = 'translateY(-100%)';
+    } else {
+        // Scrolling up, show the navbar
+        header.style.transform = 'translateY(0)';
+    }
+
+    lastScrollTop = scrollTop;
+})
