@@ -21,14 +21,14 @@
   margin-bottom: 4rem;
   transform-origin: top left;
   transform: rotate(5deg);
-  animation: shake .5s ease-in-out;
+  animation: shake .5s ease;
 }
 
 #home div:nth-child(2) {
   background-color: #fff;
   transform-origin: top left;
   transform: rotate(-5deg);
-  animation: shake2 .5s ease-in-out;
+  animation: shake2 .5s ease;
 }
 
 
