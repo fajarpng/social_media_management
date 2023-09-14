@@ -1,0 +1,13 @@
+#about {
+  text-align: center;
+}
+
+#about .bordered-text {
+  font-family: var(--font-norwester);
+  font-size: 3rem;
+  -webkit-text-stroke: .5px #000;
+  text-shadow: 3px 3px 0 var(--primary-color);
+  color: transparent;
+  font-weight: 800;
+  letter-spacing: 5px;
+}
