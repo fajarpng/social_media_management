@@ -21,6 +21,7 @@ html, body {
   padding: 0;
   scroll-behavior: smooth;
   background-color: #fff;
+  overflow: "";
 }
 
 ::-moz-selection { /* Code for Firefox */
@@ -45,6 +46,10 @@ a:hover {
 section {
   padding: 80px 10%;
   text-align: center;
+  position: relative;
+}
+section > * {
+  z-index: 3; /* Set the z-index value to 3 for all child elements */
 }
 
 button {
@@ -53,6 +58,38 @@ button {
 
 .f-nw {
   font-family: var(--font-norwester);
+}
+
+.bg-bl {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 30vh;
+  z-index: 0;
+}
+
+.bg-br {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 10vh;
+  z-index: 0;
+}
+
+.bg-tl {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 10vh;
+  z-index: 0;
+}
+
+.bg-tr {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 40vh;
+  z-index: 0;
 }
 
 @media (max-width: 768px) {
