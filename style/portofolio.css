@@ -1,0 +1,32 @@
+#portofolio h2 {
+  font-size: 3rem;
+  font-family: var(--font-norwester);
+}
+
+#portofolio .desc {
+  font-weight: 500;
+  -webkit-text-stroke: 0.5px #fff;
+}
+
+#portofolio .text-thanks div:nth-child(1) {
+  background-color: #000;
+  color: #fff;
+  transform-origin: bottom right;
+  transform: rotate(5deg) translate(-15px);
+  margin-bottom: 2rem;
+}
+
+#portofolio .text-thanks div:nth-child(2) {
+  background-color: #fff;
+}
+
+#portofolio .t-gtc {
+  font-family: var(--font-norwester);
+  font-size: 2rem;
+  margin: 4rem 0 3rem;
+}
+
+#portofolio .info .portofolio {
+  margin-top: 1rem;
+  letter-spacing: 3px;
+}

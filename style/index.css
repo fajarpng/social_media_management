@@ -3,6 +3,8 @@
 @import "home.css";
 @import "about.css";
 @import "services.css";
+@import "portofolio.css";
+@import "testimonial.css";
 @import "contact.css";
 @font-face {
   font-family: "norwester";

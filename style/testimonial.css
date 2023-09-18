@@ -1,0 +1,32 @@
+#testimonial h2 {
+  font-size: 3rem;
+  font-family: var(--font-norwester);
+}
+
+#testimonial .desc {
+  font-weight: 500;
+  -webkit-text-stroke: 0.5px #fff;
+}
+
+#testimonial .text-thanks div:nth-child(1) {
+  background-color: #000;
+  color: #fff;
+  transform-origin: bottom right;
+  transform: rotate(5deg) translate(-15px);
+  margin-bottom: 2rem;
+}
+
+#testimonial .text-thanks div:nth-child(2) {
+  background-color: #fff;
+}
+
+#testimonial .t-gtc {
+  font-family: var(--font-norwester);
+  font-size: 2rem;
+  margin: 4rem 0 3rem;
+}
+
+#testimonial .info .testimonial {
+  margin-top: 1rem;
+  letter-spacing: 3px;
+}
