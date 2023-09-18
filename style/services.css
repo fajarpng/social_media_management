@@ -1,13 +1,11 @@
-#services {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 #services h2 {
   font-size: 3rem;
   font-family: var(--font-norwester);
+}
+
+#services .desc {
+  font-weight: 500;
+  -webkit-text-stroke: 0.5px #fff;
 }
 
 #services .text-thanks div:nth-child(1) {

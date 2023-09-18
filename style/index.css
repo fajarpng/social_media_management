@@ -44,16 +44,22 @@ a:hover {
 }
 
 section {
+  display: flex;
+  flex-direction: column;
   padding: 80px 10%;
   text-align: center;
   position: relative;
 }
-section > * {
-  z-index: 3; /* Set the z-index value to 3 for all child elements */
+section > *, section > * > *{
+  z-index: 3;
 }
 
 button {
   transition: all .3s ease-in-out;
+}
+
+.t-left {
+  text-align: left;
 }
 
 .f-nw {

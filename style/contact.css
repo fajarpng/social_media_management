@@ -29,11 +29,15 @@
 
 #contact .t-gtc {
   font-family: var(--font-norwester);
-  font-size: 2rem;
-  margin: 4rem 0 3rem;
+  font-size: 4rem;
+  margin: 4rem 0;
 }
 
+#contact .info {
+  margin: 2rem 0 4rem;
+}
 #contact .info .contact {
-  margin-top: 1rem;
   letter-spacing: 3px;
+  font-size: 1.5rem;
+  margin-top: 2rem;
 }
