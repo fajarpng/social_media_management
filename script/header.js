@@ -49,7 +49,7 @@ navMenus.forEach(e => e.addEventListener('click', () => {
 // handle for navbar background change on scroll
 window.addEventListener('scroll', () => {
   if (window.scrollY > 150) {
-    header.style.backgroundColor = '#fcee4f' // set background color
+    header.style.backgroundColor = 'rgba(252,234,55,.7)' // set background color
   } else {
     header.style.backgroundColor = 'transparent' // remove background color
   }

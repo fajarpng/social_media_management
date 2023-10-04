@@ -3,6 +3,7 @@
 @import "home.css";
 @import "about.css";
 @import "services.css";
+@import "price.css";
 @import "portofolio.css";
 @import "testimonial.css";
 @import "contact.css";
@@ -48,6 +49,7 @@ a:hover {
 section {
   display: flex;
   flex-direction: column;
+  min-height: calc(100vh - (160px));
   padding: 80px 10%;
   text-align: center;
   position: relative;
@@ -102,6 +104,7 @@ button {
 
 @media (max-width: 768px) {
   section {
+    min-height: calc(100vh - (80px));
     padding: 40px 10%;
   }
 }
